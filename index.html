@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Calculadora</title>
+    </head>
+
+    <body>
+        <form action="" name="calcular">
+            <div id="calculadora">
+                <input type="text" class="tela" name="tela">
+                <div class="linha4">
+                    <input type="button" value="7" class="botao" onclick="botao(value)">
+                    <input type="button" value="8" class="botao" onclick="botao(value)">
+                    <input type="button" value="9" class="botao" onclick="botao(value)">
+                    <input type="button" value="C" class="botao" onclick="reset()">
+                </div>
+                <div class="linha3">
+                    <input type="button" value="4" class="botao" onclick="botao(value)">
+                    <input type="button" value="5" class="botao" onclick="botao(value)">
+                    <input type="button" value="6" class="botao" onclick="botao(value)">
+                    <input type="button" value="+" class="botao" onclick="botao(value)">
+                </div>
+                <div class="linha2">
+                    <input type="button" value="1" class="botao" onclick="botao(value)">
+                    <input type="button" value="2" class="botao" onclick="botao(value)">
+                    <input type="button" value="3" class="botao" onclick="botao(value)">
+                    <input type="button" value="-" class="botao" onclick="botao(value)">
+                </div>  
+                <div class="linha1">
+                    <input type="button" value="/" class="botao" onclick="botao(value)">
+                    <input type="button" value="0" class="botao" onclick="botao(value)">
+                    <input type="button" value="*" class="botao" onclick="botao(value)">
+                    <input type="button" value="=" class="botao" onclick="calcule()">
+                </div>               
+            </div>
+        </form>
+        <script language="javascript" src="js/main.js"></script>
+    </body>
+</html>
