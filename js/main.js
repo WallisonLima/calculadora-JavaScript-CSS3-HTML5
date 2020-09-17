@@ -9,3 +9,4 @@ function calcule(){
     resultado = eval(valor);
     document.calcular.tela.value = resultado.toLocaleString('pt-br');
 }
+
