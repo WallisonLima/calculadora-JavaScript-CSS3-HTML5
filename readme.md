@@ -21,7 +21,7 @@ Feito e instalação das ferramentas utilizadas nesse projeto, siga os passo aba
 2. Abra um terminal na pasta do projeto, no caso do VsCode localizado na barra de tarefas, descrito como `Terminal`, `new Terminal` OU digite `CTRL + ALTgr + j`
 3. [Clone](https://docs.github.com/pt/github/creating-cloning-and-archiving-repositories/cloning-a-repository#:~:text=10%2C%20done.-,Clonar%20um%20reposit%C3%B3rio%20no%20GitHub%20Desktop,Desktop%20para%20concluir%20o%20clone.) o projeto em questão.
 4. Digite `cd calculadora-JavaScript-CSS3-HTML5`
-4. Instale as dependências necessárias rodando no terminal dentro da pasta clonada: 
+5. Instale as dependências necessárias rodando no terminal dentro da pasta clonada: 
     
     `npm install express`
 
