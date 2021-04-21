@@ -2,6 +2,7 @@
 
 Neste projeto foi desenvolvido o estudo do zero para implementação do express, integrando de forma estática as funcionalidades Javascript e os estilos CSS.
 
+![calculadora](./image/InterfaceCalc.png)
 
 ### Teste em seu Computador!
 
